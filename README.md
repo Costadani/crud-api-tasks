@@ -6,8 +6,7 @@ Este é um projeto de API em Node.js usando o framework Express para criar um CR
 
 - Node.js
 - Express
-- MongoDB (ou outra base de dados, se aplicável)
-
+- MySQL 
 ## Funcionalidades
 
 - Criar uma nova tarefa

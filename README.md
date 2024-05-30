@@ -2,6 +2,19 @@
 
 Este é um projeto de API em Node.js usando o framework Express para criar um CRUD de tarefas. Ele fornece endpoints para criar, visualizar, atualizar e excluir tarefas.
 
+## Tecnologias
+
+- Node.js
+- Express
+- MongoDB (ou outra base de dados, se aplicável)
+
+## Funcionalidades
+
+- Criar uma nova tarefa
+- Visualizar todas as tarefas
+- Visualizar uma tarefa específica pelo ID
+- Atualizar uma tarefa existente
+- Excluir uma tarefa pelo ID
 ## Pré-requisitos
 
 - Node.js instalado no seu sistema. Você pode baixá-lo [aqui](https://nodejs.org/).

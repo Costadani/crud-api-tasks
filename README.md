@@ -15,13 +15,7 @@ Este é um projeto de API em Node.js usando o framework Express para criar um CR
     git clone https://github.com/seu-usuario/api-node-express-crud-tarefas.git
     ```
 
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd api-node-express-crud-tarefas
-    ```
-
-3. Instale as dependências do projeto usando npm ou yarn:
+2. Instale as dependências do projeto usando npm ou yarn:
 
     ```bash
     npm install

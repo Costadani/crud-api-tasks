@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"><a href="" class="roboto-medium">Bemol Digital</a></div>
+        <div class="list_container">
+            <h2><i class='bx bx-list-ul'></i> Lista de Tarefas</h2>
+            <a href="new_tarefa.html" class="add_button"><i class='bx bx-add-to-queue'></i> Adicionar</a>
+            <div class="list_agroup">
+                <div class="lists" id="list_not_completed">
+                    <p style="color:#fc3f5c;">Tarefas Incompletas</p>
+                    <div class="task_card">
+                        <p class="descricao">Essa tarefa é um teste</p>
+                        <div class="actions">
+                            <button>Concluir Tarefa</button>
+                            <button></button>
+                            <button>Deletar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists" id="list_completed">
+                    <p style="color: #099943;">Tarefas Completas</p>
+                    <div class="task_card">
+    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+</body>
+
+<script src="Js/script.js"></script>
+
+</html>
